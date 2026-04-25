@@ -15,7 +15,9 @@ dist/
 pip-wheel-metadata/
 
 # Virtual environments
-nlp_labs/
+.venv/
+venv/
+.venv
 
 # Jupyter
 .ipynb_checkpoints/
