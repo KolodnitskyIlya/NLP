@@ -6,15 +6,22 @@
 
 ```text
 .
-├── nlp_lectures/
-├── nlp_tasks/
-├── lab PyTorch/
-├── lab_RNN/
+├── Lectures/
+├── 1. PyTorch (Regression + Classification)/
+├── 2. RNN LSTM GRU (Text Classification)/
+├── 3. Transformer GPT (Text Generation)/
+├── 4. NLP Applications (HF Pipelines)/
+├── 5. Topic Modeling (BigARTM)/
+├── Extra 1. HH.ru Parsing (Async + Threads)/
+├── Extra 2. Word2Vec (Skip-Gram + CBOW)/
+├── Extra 3. RNN Attention (Classification)/
+├── Extra 4. Topic Modeling (sklearn + gensim)/
+├── RAG Constitution Search/
 ├── pyproject.toml
 └── uv.lock
 ```
 
-## Лекции (`nlp_lectures`)
+## Лекции (`Lectures`)
 
 1. Введение
 - Предобработка текстовых данных
@@ -43,28 +50,20 @@
 6. Основы распознавания и синтеза речи
 - Базовые подходы ASR и TTS
 
-## Задания (`nlp_tasks`)
+## Соответствие заданий и лабораторных
 
-### Основные задания
-- `task_1.ipynb`: основы Python и PyTorch, полносвязные нейронные сети
-- `task_2.ipynb`: классификация текстов с применением RNN
-- `task_3.ipynb`: архитектура Transformer и GPT-подход к генерации текста
-- `task_4.ipynb`: решение прикладной NLP-задачи
-- `task_5.ipynb`: тематическое моделирование новостных статей
-
-### Дополнительные задания
-- `task_1.ipynb`: парсинг данных с hh.ru
-- `task_2.ipynb`: реализация Word2Vec (Skip-Gram / CBOW)
-- `task_3.ipynb`: реализация механизма внимания в RNN
-- `task_4.ipynb`: тематическое моделирование с `scikit-learn` и `gensim`
+- `1. PyTorch (Regression + Classification)/task.ipynb`: основы Python и PyTorch, полносвязные нейронные сети
+- `2. RNN LSTM GRU (Text Classification)/task.ipynb`: классификация текстов с применением RNN
+- `3. Transformer GPT (Text Generation)/task.ipynb`: архитектура Transformer и GPT-подход к генерации текста
+- `4. NLP Applications (HF Pipelines)/task.ipynb`: решение прикладной NLP-задачи
+- `5. Topic Modeling (BigARTM)/task.ipynb`: тематическое моделирование новостных статей
+- `Extra 1. HH.ru Parsing (Async + Threads)/task.ipynb`: парсинг данных с hh.ru
+- `Extra 2. Word2Vec (Skip-Gram + CBOW)/task.ipynb`: реализация Word2Vec (Skip-Gram / CBOW)
+- `Extra 3. RNN Attention (Classification)/task.ipynb`: реализация механизма внимания в RNN
+- `Extra 4. Topic Modeling (sklearn + gensim)/task.ipynb`: тематическое моделирование с `scikit-learn` и `gensim`
 
 ### РГР
-- `rgr/rgr.ipynb`: расчетно-графическая работа по разработке RAG-системы для поиска правовых статей Конституции РФ (чанкинг, эмбеддинги, векторная БД, retrieval, генерация ответа LLM, API/web-часть)
-
-## Выполненные лабораторные работы
-
-- `lab PyTorch/lab.ipynb`: лабораторная работа 1 (PyTorch, регрессия и классификация)
-- `lab_RNN/lab.ipynb`: лабораторная работа 2 (классификация текстов на основе RNN с разными эмбеддингами и архитектурами)
+- `RAG Constitution Search/rgr.ipynb`: расчетно-графическая работа по разработке RAG-системы для поиска правовых статей Конституции РФ (чанкинг, эмбеддинги, векторная БД, retrieval, генерация ответа LLM, API/web-часть)
 
 ## Технологический стек
 
@@ -85,10 +84,17 @@ jupyter lab
 ```
 
 После запуска откройте любой ноутбук из:
-- `nlp_lectures/`
-- `nlp_tasks/`
-- `lab PyTorch/`
-- `lab_RNN/`
+- `Lectures/`
+- `1. PyTorch (Regression + Classification)/`
+- `2. RNN LSTM GRU (Text Classification)/`
+- `3. Transformer GPT (Text Generation)/`
+- `4. NLP Applications (HF Pipelines)/`
+- `5. Topic Modeling (BigARTM)/`
+- `Extra 1. HH.ru Parsing (Async + Threads)/`
+- `Extra 2. Word2Vec (Skip-Gram + CBOW)/`
+- `Extra 3. RNN Attention (Classification)/`
+- `Extra 4. Topic Modeling (sklearn + gensim)/`
+- `RAG Constitution Search/`
 
 ## Примечания
 
