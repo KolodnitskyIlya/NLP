@@ -1,6 +1,7 @@
 bad/
 navec_hudlit_v1_12B_500K_300d_100q.tar
-3. Transformer GPT (Text Generation)/data
+3. Transformer GPT (Text Generation)/data/TinyStories-valid.txt
+3. Transformer GPT (Text Generation)/data/TinyStories-train.txt
 
 # macOS
 .DS_Store
